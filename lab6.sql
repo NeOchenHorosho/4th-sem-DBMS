@@ -276,7 +276,7 @@ VALUES
     (
         'Collective',
         'Subconcious',
-        'Humanitous',
+        'Humanitiev',
         'world-shaper',
         'Faculty of applied math and computer science'
     );
@@ -372,9 +372,7 @@ CREATE TABLE Departments (
 );
 
 -- 12. Запрос на создание индекса
-CREATE INDEX IX_ViolationFacts_DateTime ON ViolationFacts (DateTime);
-
-CREATE INDEX IX_ViolatorsAndPunishments_EmployeeID ON ViolatorsAndPunishments (EmployeeID);
+CREATE INDEX haha ON ViolationFacts (DateTime);
 
 -- 13. Запрос на создание представления, объединяющего данные двух таблиц
 GO

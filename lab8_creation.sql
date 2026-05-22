@@ -39,7 +39,7 @@ CREATE TABLE Goods (
 
 CREATE TABLE Shipped_goods (
     shipped_goods_id INT NOT NULL IDENTITY(1, 1),
-    units_shipped INT NOT NULL,
+    [units_shipped] INT NOT NULL,
     factual_price_per_unit DECIMAL NOT NULL,
     goods_id INT NOT NULL,
     shipment_note_id INT NOT NULL,

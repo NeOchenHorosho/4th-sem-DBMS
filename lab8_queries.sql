@@ -3,7 +3,7 @@ USE SalesDB;
 GO
     DECLARE @goods_id INT = 1;
 
-DECLARE @report_date DATE = '2024-02-10';
+DECLARE @report_date DATE = '2027-02-10';
 
 -- форма выходного отчёта 1
 WITH Paid AS (

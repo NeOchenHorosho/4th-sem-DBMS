@@ -1,4 +1,5 @@
-use tempdb;
-
+use ReportsDatabase;
 GO
-    DROP DATABASE БазаОтчётов;
+SELECT  *
+FROM sys.indexes
+WHERE name='haha';
